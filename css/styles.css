@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+body {
+    /* background-color: rgb(43, 42, 42); */
+    overflow-x: hidden;
+    background-image: linear-gradient(to left,black, rgb(48, 48, 48),grey);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+hr {
+    width:100%;
+    margin:0 auto;
+    border-top: 1px solid greenyellow;
+}
+
+.main {
+    font-family: 'Griffy', cursive;
+    color: orange;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div {
+    text-align: center;
+    padding-top: 15px;
+}
+
+p {
+    color: orange;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.witch {
+    width: 290px;
+    height: 290px;
+    float: left;
+}
+
+.pumpkin {
+    width: 290px;
+    height: 290px;
+    float: right;
+}
+
+.info {
+    color: orange;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.question {
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.person {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.quote {
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.table {
+    margin-top: 40px;
+    font-size: 20px;
+    color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 5px;
+}
